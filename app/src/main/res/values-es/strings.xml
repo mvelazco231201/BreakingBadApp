@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BreakingBadAPP</string>
+    <string name="E_mail">E-mail</string>
+    <string name="password">Contraseña</string>
+    <string name="Login">Registrarte</string>
+    <string name="Characters">Personajes</string>
+    <string name="Phrase">Frases</string>
+    <string name="Settings">Configuraciones</string>
+    <string name="Nigth_Mode">Modo Nocturno</string>
+    <string name="Name_Perfil">Nombre de Perfil</string>
+    <string name="Translate">Traducir</string>
+    <string name="Notifications">Notificaciones</string>
+    <string name="Logout">Salir de sesión</string>
+    <string name="checkbox">Mantenerme registrado</string>
+    <string name="alert">"Favor de ingresar los valores solicitados correctamente"</string>
+</resources>

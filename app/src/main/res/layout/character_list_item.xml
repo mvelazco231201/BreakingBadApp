@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/Character1"
+                android:layout_width="67dp"
+                android:layout_height="55dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="13dp"
+                android:src="@drawable/frame0" />
+
+            <LinearLayout
+                android:id="@+id/linear1"
+                android:layout_width="221dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="5dp"
+                android:layout_toEndOf="@id/Character1"
+                android:background="@drawable/back_recycler"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/name1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:autoSizeMaxTextSize="30dp"
+                    android:autoSizeMinTextSize="15dp"
+                    android:autoSizeTextType="uniform"
+                    android:letterSpacing=".14"
+                    android:paddingHorizontal="15dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    tool:text="Walter White" />
+
+                <TextView
+                    android:id="@+id/apodo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:autoSizeMaxTextSize="30dp"
+                    android:autoSizeMinTextSize="15dp"
+                    android:autoSizeTextType="uniform"
+                    android:letterSpacing=".12"
+                    android:paddingHorizontal="15dp"
+                    android:textColor="@color/teal_200"
+                    android:textStyle="bold"
+                    tool:text="Heisenberg" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/status"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                tool:src="@drawable/ic_alive" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</layout>

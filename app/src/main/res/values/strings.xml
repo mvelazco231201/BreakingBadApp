@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BreakingBadAPP</string>
+    <string name="E_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="Login">Login</string>
+    <string name="Characters">Characters</string>
+    <string name="Phrase">Phrases</string>
+    <string name="Settings">Settings</string>
+    <string name="Nigth_Mode">Nigth Mode</string>
+    <string name="Name_Perfil">Name Perfil</string>
+    <string name="Translate">Translate</string>
+    <string name="Notifications">Notifications</string>
+    <string name="Logout">Logout</string>
+    <string name="checkbox">Keep me signed in</string>
+    <string name="alert">Please enter the requested values correctly</string>
+</resources>
